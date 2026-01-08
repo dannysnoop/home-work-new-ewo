@@ -10,7 +10,6 @@ function countClapsUpTo(n) {
         let current = Math.floor(n / factor) % 10;
         let higher = Math.floor(n / (factor * 10));
 
-        // đếm cho 3, 6, 9
         for (let d of [3, 6, 9]) {
 
             if (current > d) {

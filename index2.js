@@ -13,3 +13,11 @@ function isValidParentheses(s) {
   
     return count === 0;
   }
+
+  console.log(isValidParentheses("()"));        // true
+console.log(isValidParentheses("(())"));      // true
+console.log(isValidParentheses("(()()())"));  // true
+console.log(isValidParentheses(")( "));       // false
+console.log(isValidParentheses("(()"));       // false
+console.log(isValidParentheses("(()()))"));   // false
+console.log(isValidParentheses("(()()"));     // false
